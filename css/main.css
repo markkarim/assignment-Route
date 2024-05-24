@@ -1,0 +1,67 @@
+.quote {
+  h1 {
+    font-size: 5rem;
+    font-family: Impact;
+  }
+  p {
+    font-size: 2.1875rem;
+  }
+  .atem::after {
+    content: " | ";
+    position: absolute;
+    padding-left: .9375rem;
+    animation: tot 2.5s infinite;
+  }
+  .ti{
+    transform: translateX(-10%);
+  }
+}
+
+@keyframes tot {
+  0% {
+    content: " | ";
+  }
+
+  7% {
+    content: "T|";
+  }
+  14% {
+    content: "Th|";
+  }
+  21% {
+    content: "The|";
+  }
+  28% {
+    content: "The_|";
+  }
+  35% {
+    content: "The_D|";
+  }
+  42% {
+    content: "The_Da|";
+  }
+  49% {
+    content: "The_Day|";
+  }
+  56% {
+    content: "The_Day|";
+  }
+  63% {
+    content: "The_Da|";
+  }
+  70% {
+    content: "The_D|";
+  }
+  77% {
+    content: "The_|";
+  }
+  84% {
+    content: "Th|";
+  }
+  91% {
+    content: "T";
+  }
+  100% {
+    content: "|";
+  }
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=3, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <header class="text-center vh-100 text-black py-5 bg-dark bg-opacity-10">
+      <div class="container">
+        <div class="quote">
+          <h1 class="py-4 ti position-relative">
+            Quote of <span class="atem text-danger  "> </span>
+          </h1>
+          <p class="pb-4">Press the button below to recieve a random quote!</p>
+
+          <button
+            class="btn btn-outline-primary py-3 px-4 rounded fs-3"
+            onclick="popularQuotes()">
+            New Quote
+          </button>
+
+          <div class="pt-4" id="kay"></div>
+        </div>
+      </div>
+    </header>
+
+    <script src="./js/index.min.js"></script>
+  </body>
+</html>
